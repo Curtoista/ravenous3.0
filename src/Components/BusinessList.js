@@ -3,7 +3,7 @@ import Business from "./Business";
 
 function BusinessList() {
     return (
-        <div class="flex flex-wrap m-18 ">
+        <div class="grid grid-cols-3 m-18 ">
             <Business />
             <Business />
             <Business />
