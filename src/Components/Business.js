@@ -29,7 +29,7 @@ function Business() {
                 </div>
                 <div class="flex flex-col justify-between text-right">
                     <h3 class="text-yellow-600 font-semibold">{business.category.toUpperCase()}</h3>
-                    <h3 class="text-yellow-600 font-semibold">{business.rating} stars</h3>
+                    <h3 class="text-yellow-600 font-semibold"><span>{business.rating}</span> stars</h3>
                     <h3 class="text-yellow-600 font-semibold">{business.reviewCount} reviews</h3>
                 </div>
             </div>
